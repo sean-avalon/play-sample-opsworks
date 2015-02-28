@@ -9,9 +9,10 @@ DEPENDENCIES
 
 GRAPH
   app (0.1.0)
+    play2 (~> 0.1.0)
   artifact (1.10.3)
     windows (~> 1.8.0)
-  aws (2.6.4)
+  aws (2.5.0)
   chef_handler (1.1.6)
   java (1.14.0)
     aws (>= 0.0.0)

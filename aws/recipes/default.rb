@@ -16,9 +16,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-chef_gem 'aws-sdk' do
-  version node['aws']['aws_sdk_version']
+
+chef_gem "right_aws" do
+  version node['aws']['right_aws_version']
   action :install
 end
 
-require 'aws-sdk'
+require 'right_aws'
