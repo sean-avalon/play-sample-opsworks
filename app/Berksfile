@@ -1,0 +1,5 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook "play2", git: "https://github.com/Originate/cookbooks.git", rel: "play2"
